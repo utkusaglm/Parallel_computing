@@ -39,11 +39,6 @@ int main(int argc, char *argv[]){
     
     gettimeofday(&start1,NULL);
     
-    /*for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-            a[i][j]=b[i][j]+c[i][j];
-        }
-    }*/
     for(i=0;i<row;i++){
         for(k=0;k<col;k++){
             mul[i][j]=0;
